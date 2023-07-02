@@ -1,7 +1,5 @@
-import React from "react";
-import data from "./data.js";
-import "./App.css";
 import ContainCard from "./components/ContainCard.jsx";
+import data from "./data.js";
 
 function App() {
   // const search = (e) => {

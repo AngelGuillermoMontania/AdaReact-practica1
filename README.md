@@ -34,7 +34,7 @@ SI LA TEMPERATURA MAXIMA ES MAYOR A 21 COLOCAR LA TEMPERATURA EN COLOR ROJO, SI 
 
 #### **ContainCard (`components/ContainCard.js`)**
 
-Este Componente nos va a servir para renderizar muchos Componentes `Cards`. Básicamente, este componente va a recibir un arreglo de `ciudades` (con todos sus datos), y va a crear un componente `Card` por cada ciudad, pasandole las props correspondientes.
+Este Componente va a servir para renderizar muchos Componentes `Cards`. Básicamente, este componente va a recibir un arreglo de `ciudades` (con todos sus datos), y va a crear un componente `Card` por cada ciudad, pasandole las props correspondientes.
 
 ![](./img/Cards.png)
 
@@ -46,7 +46,7 @@ Este componente se va a utilizarse para luego poder encontrar las ciudades sobre
 
 ![](./img/SearchBar.png)
 
-Este Componente recibe por props una función `onSearch` que recibe un parámetro (que será el nombre de la ciudad tomado desde el input pero de momento pueden pasarle uno cualquiera ya que aún no estamos utilizando estados dentro del componente). La función `onSearch` se debe ejecutar cuando se haga click en el botón `Agregar`.
+Este Componente recibe por props una función `onSearch` (Se envia desde app.jsx) que recibe un parámetro (que será el nombre de la ciudad tomado desde el input pero de momento pueden pasarle uno cualquiera ya que aún no estamos utilizando estados dentro del componente). La función `onSearch` se debe ejecutar cuando se haga click en el botón `Agregar`, la funcion `onSearch` solo mostrara un alert.
 
 > **Nota**: ACOMODAR LOS COMPONENTES EN EL ARCHIVO APP.JSX YA QUE ES NUESTRA PUERTA DE ENTRADA
 >
@@ -58,9 +58,9 @@ Este Componente recibe por props una función `onSearch` que recibe un parámetr
 
 Instala todas las dependecias necesarias para correr el proyecto correctamente a la altura del package.json
 
-#### `npm start`
+#### `npm run dev`
 
 Comienza a correr la aplicación de forma local por lo que se puede ver desde el navegador accediendo a
-http://localhost:3000
+http://127.0.0.1:5173/
 
-> No es necesario volver a correr el proyecto cada vez que se realice un cambio sino que se verá automáticamente reflejando en el navegador.
+> No es necesario volver a correr el proyecto cada vez que se realice un cambio sino que se verá automáticamente reflejando en el navegador. Si se detecta que no se aplica un cambio automaticamente, es recomendable en ese caso actualizar el navegador
