@@ -2,12 +2,14 @@ import ContainCard from "./components/ContainCard.jsx";
 import data from "./data.js";
 
 function App() {
-  // const search = (e) => {
-  //   alert(`Hice ${e.type} en buscar`);
+  // const search = () => {
+  //   alert(`Hice click en el boton buscar`);
   // };
 
+  // AGREGAR AQUI FUNCION QUITAR
+
   return (
-    <div className="App">
+    <div>
       <ContainCard cities={data} />
     </div>
   );
