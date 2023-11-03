@@ -38,6 +38,11 @@ Este Componente va a servir para renderizar muchos Componentes `Cards`. Básicam
 
 ![](./img/Cards.png)
 
+#### **SearchBar (`components/SearchBar.js`)**
+
+Este componente va a servir para buscar una nueva ciudad cuando trabajemos con la api. El componente, debe llevar un input del tipo texto y un boton que servira para buscar la ciudad.
+SearchBar debe renderizarse en la parte superior de la aplicacion
+
 ### Instrucciones para correr el proyecto
 
 #### `npm install`
