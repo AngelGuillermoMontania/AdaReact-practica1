@@ -16,11 +16,12 @@ Sabemos que los Componentes de React tiene que cumplir el principio de una sóla
 
 Esta tarjeta va a mostrar los datos de una ciudad con una imagen que representa el estado del clima (soleado, nublado, etc..), además cuando el usuario haga click en la X de cerrar, se invocará una función que tambien viene como prop.
 
-![](./img/WeatherCard.png)
+![](./img/Card.png)
 
 Este Componente va a recibir las siguientes props:
 
 - **name**: Nombre de la ciudad.
+- **temp**: Temperatura actual.
 - **description**: Descripcion del clima.
 - **feels_like**: Sensacion termina.
 - **humidity**: Humedad.
@@ -36,12 +37,18 @@ Todos estos datos van a venir de una API de clima en el futuro, pero por ahora n
 
 Este Componente va a servir para renderizar muchos Componentes `Cards`. Básicamente, este componente va a recibir un arreglo de `ciudades` (con todos sus datos), y va a crear un componente `Card` por cada ciudad, pasandole las props correspondientes.
 
-![](./img/Cards.png)
+![](./img/ContainCards.png)
 
 #### **SearchBar (`components/SearchBar.js`)**
 
-Este componente va a servir para buscar una nueva ciudad cuando trabajemos con la api. El componente, debe llevar un input del tipo texto y un boton que servira para buscar la ciudad.
-SearchBar debe renderizarse en la parte superior de la aplicacion
+Este componente, debe llevar un input del tipo texto y un boton que servira para buscar la ciudad.
+En el futuro, este componente ira a buscar una nueva ciudad a la api para sumarlo al array de ciudades que ya tenemos.
+
+![](./img/SearchBar.png)
+
+> SearchBar debe renderizarse en la parte superior de la aplicacion, es decir, por encima de ContainCard en App.
+
+<br><br>
 
 ### Instrucciones para correr el proyecto
 

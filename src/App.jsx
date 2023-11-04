@@ -1,4 +1,5 @@
 import ContainCard from "./components/ContainCard.jsx";
+import SearchBar from "./components/SearchBar.jsx";
 import data from "./data.js";
 
 function App() {

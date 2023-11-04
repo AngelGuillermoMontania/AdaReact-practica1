@@ -1,5 +1,48 @@
 export const Cairns = JSON.parse(
-  `{"coord":{"lon":145.7667,"lat":-16.9167},"weather":[{"id":804,"main":"Clouds","description":"nubes","icon":"04n"}],"base":"stations","main":{"temp":22.63,"feels_like":22.93,"temp_min":21.15,"temp_max":22.97,"pressure":1014,"humidity":76},"visibility":10000,"wind":{"speed":2.57,"deg":160},"clouds":{"all":100},"dt":1698607759,"sys":{"type":1,"id":9490,"country":"AU","sunrise":1698608409,"sunset":1698654056},"timezone":36000,"id":2172797,"name":"Cairns","cod":200}`
+  `{
+    "coord":{
+      "lon":145.7667,
+      "lat":-16.9167
+    },
+    "weather":[
+      {
+        "id":804,
+        "main":"Clouds",
+        "description": "nubes",
+        "icon":"04n"
+      }
+    ],
+    "base":"stations",
+    "main":
+      {
+      "temp":22.63,
+      "feels_like":22.93,
+      "temp_min":21.15,
+      "temp_max":22.97,
+      "pressure":1014,
+      "humidity":76
+    },
+    "visibility":10000,
+    "wind":{
+      "speed":2.57,
+      "deg":160
+    },
+    "clouds":{
+      "all":100
+    },
+    "dt":1698607759,
+    "sys":{
+      "type":1,
+      "id":9490,
+      "country":"AU",
+      "sunrise":1698608409,
+      "sunset":1698654056
+    },
+    "timezone":36000,
+    "id":2172797,
+    "name":"Cairns",
+    "cod":200
+  }`
 );
 
 export const Londres = JSON.parse(
