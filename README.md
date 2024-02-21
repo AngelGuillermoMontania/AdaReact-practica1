@@ -2,7 +2,7 @@
 
 ### Ejercicio
 
-Vamos a crear una serie de Componentes de React que luego vamos a usar proximas practicas.
+Vamos a crear una serie de Componentes de React que luego vamos a usar en proximas practicas.
 
 > **Nota**: Todos los Componentes que hagamos en esta practica son `Puros` y `Funcionales`, por lo tanto, ninguno tiene estado, simplemente reciben datos por props y son funciones.
 >
