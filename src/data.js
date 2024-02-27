@@ -46,7 +46,7 @@ export const Cairns = JSON.parse(
 );
 
 export const Londres = JSON.parse(
-  `{"coord":{"lon":-0.1257,"lat":51.5085},"weather":[{"id":804,"main":"Clouds","description":"nubes","icon":"04n"}],"base":"stations","main":{"temp":9.97,"feels_like":7.32,"temp_min":8.58,"temp_max":11.19,"pressure":992,"humidity":90},"visibility":10000,"wind":{"speed":5.66,"deg":200},"clouds":{"all":98},"dt":1698607510,"sys":{"type":2,"id":2006068,"country":"GB","sunrise":1698562071,"sunset":1698597626},"timezone":0,"id":2643743,"name":"London","cod":200}`
+  `{"coord":{"lon":-0.1257,"lat":51.5085},"weather":[{"id":804,"main":"Clouds","description":"nubes","icon":"01d"}],"base":"stations","main":{"temp":9.97,"feels_like":7.32,"temp_min":8.58,"temp_max":11.19,"pressure":992,"humidity":90},"visibility":10000,"wind":{"speed":5.66,"deg":200},"clouds":{"all":98},"dt":1698607510,"sys":{"type":2,"id":2006068,"country":"GB","sunrise":1698562071,"sunset":1698597626},"timezone":0,"id":2643743,"name":"London","cod":200}`
 );
 
 export const Denver = JSON.parse(
